@@ -13,7 +13,7 @@ As iterators preserve state, take care reusing them.
 As an example, the first loop below will print 1,2,3 where as the second 
 will print nothing.
 
-```
+```python
 >>> an_iter = iter([1, 2, 3])
 >>> for x in an_iter:
 ...     print x
@@ -31,7 +31,7 @@ An `Iterable` is a class that can generate an `Iterator`. For example
 list, tuples and strings are all iterable. To be an iterable a class
 just has to have an __iter__ method that will return an iterator.
 Iterables can be looped over multiple time as each time a new iter is generated;
-```
+```python
 >>> seq = (1, 2, 3)
 >>> for x in seq:
 ...     print x
@@ -47,7 +47,7 @@ Iterables can be looped over multiple time as each time a new iter is generated;
 3
 ```
 but once the iterator has been generated it can't be reused.
-```
+```python
 >>> an_iter = iter(seq)
 >>> for x in an_iter:
 ...     print x
@@ -65,7 +65,7 @@ but once the iterator has been generated it can't be reused.
 If you're currently returning a list from a function consider instead
 returning an iterator.  For example;
 
-```
+```python
 # Bad
 def get_all_lines():
     all_lines = []
@@ -86,7 +86,7 @@ def get_all_lines_iter():
 If client code wants to search the lines for string all files will be read
 into memory even if the line were looking for is in the first file.
 
-```
+```python
 >>> for line in get_all_lines():
 >>>    if SEARCH_STRING in line:
 >>>         print "YAY"
@@ -97,18 +97,18 @@ This is far more efficient as we wont go through the steps of reading
 **every** file and storing it in a list when its not needed.
 It's more flexible too. If the client code wants a list they can call;
 
-```
+```python
 listified = list(get_all_lines_iter())
 ```
 
 or you might want a tuple instead;
-```
+```python
 tuplified = tuple(get_all_lines_iter())
 ```
 
 The same applied with list comprehensions;
 
-```
+```python
 # Don't do
 def some_func():
    return [x for x in some_other_iteratable]
@@ -122,7 +122,7 @@ Iterables can be used with the
 [itertools](https://docs.python.org/2/library/itertools.html) package to do
 some cool things very efficiently;
 
-```
+```python
 >>> import itertools
 
 # Create some iterable objects
