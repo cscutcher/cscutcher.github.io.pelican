@@ -25,7 +25,8 @@ CLOUDFILES_CONTAINER=my_cloudfiles_container
 
 DROPBOX_DIR=~/Dropbox/Public/
 
-GITHUB_PAGES_BRANCH=master
+GITHUB_PAGES_BRANCH=gh-pages
+GITHUB_PAGES_USER_REPO_URL=git@github.com:cscutcher/cscutcher.github.io.git
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -105,6 +106,6 @@ cf_upload: publish
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push origin $(GITHUB_PAGES_BRANCH)
+	git push $(GITHUB_PAGES_USER_REPO_URL) master
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
