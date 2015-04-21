@@ -1,5 +1,4 @@
 Title: Python Iterator Tips
-Date: 2015-04-21 15:51
 Category: blog
 Tags: python, tips, programming
 
