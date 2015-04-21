@@ -106,6 +106,6 @@ cf_upload: publish
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push $(GITHUB_PAGES_USER_REPO_URL) master
+	git push $(GITHUB_PAGES_USER_REPO_URL) $(GITHUB_PAGES_BRANCH):master
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
