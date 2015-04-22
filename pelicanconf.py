@@ -24,8 +24,9 @@ LINKS = ()
 
 # Social widget
 SOCIAL = (
-    ('github profile', 'https://github.com/cscutcher'),
-    ('linkedin', 'https://uk.linkedin.com/in/cscutcher'),
+    ('GitHub', 'https://github.com/cscutcher'),
+    ('LinkedIn', 'https://uk.linkedin.com/in/cscutcher'),
+    ('Google+', 'https://plus.google.com/+ChrisScutcher'),
 )
 
 DEFAULT_PAGINATION = 10
