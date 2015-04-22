@@ -8,6 +8,6 @@ before_install:
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - git clone https://github.com/cscutcher/pelican-plugins.git
-- pip install ghp-import markdown pelican gitpython==0.1.6
+- pip install ghp-import markdown pelican gitpython==0.1.7
 script:
 - make github
