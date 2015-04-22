@@ -13,4 +13,4 @@ before_install:
 install:
 - pip install ghp-import markdown pelican
 script:
-- make github
+- PYTHON_PATH="$PYTHON_PATH:/usr/lib/python2.7/dist-packages/" make github
