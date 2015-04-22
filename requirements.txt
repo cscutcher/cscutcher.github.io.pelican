@@ -1,0 +1,6 @@
+pelican
+markdown
+# gitpython version is different depending on version of git on host
+# Use gitpython==0.1.7 for travis
+gitpython
+ghp-import
