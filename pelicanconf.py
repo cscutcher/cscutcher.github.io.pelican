@@ -52,8 +52,9 @@ LOAD_CONTENT_CACHE = False
 THEME = 'pure-single'
 SOCIAL = (
     ('github', 'https://github.com/cscutcher'),
-    ('linkedin-square', 'https://uk.linkedin.com/in/cscutcher'),
-    ('google-plus-square', 'https://plus.google.com/+ChrisScutcher'),
+    ('linkedin', 'https://uk.linkedin.com/in/cscutcher'),
+    ('google-plus', 'https://plus.google.com/+ChrisScutcher'),
+    ('steam', 'https://steamcommunity.com/id/zoolie/')
 )
 
 MENUITEMS = (
