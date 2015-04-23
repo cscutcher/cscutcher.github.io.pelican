@@ -22,12 +22,6 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = ()
 
-# Social widget
-SOCIAL = (
-    ('GitHub', 'https://github.com/cscutcher'),
-    ('LinkedIn', 'https://uk.linkedin.com/in/cscutcher'),
-    ('Google+', 'https://plus.google.com/+ChrisScutcher'),
-)
 
 DEFAULT_PAGINATION = 10
 
@@ -53,3 +47,18 @@ PATH_METADATA = '(?P<category>[^/]+).*'
 # Don't use caches. Won't work for travis anyway
 CACHE_CONTENT = False
 LOAD_CONTENT_CACHE = False
+
+# Social widget
+THEME = 'pure-single'
+SOCIAL = (
+    ('github', 'https://github.com/cscutcher'),
+    ('linkedin-square', 'https://uk.linkedin.com/in/cscutcher'),
+    ('google-plus-square', 'https://plus.google.com/+ChrisScutcher'),
+)
+
+MENUITEMS = (
+    ('Blog', 'category/blog.html'),
+)
+
+COVER_IMG_URL = '/images/cover_img.png'
+TAGLINE = 'Personal Homepage of Chris Scutcher, Esq.'

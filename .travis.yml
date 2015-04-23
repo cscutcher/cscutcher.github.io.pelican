@@ -9,5 +9,7 @@ before_install:
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - git clone -b permalinks https://github.com/cscutcher/pelican-plugins.git
 - pip install -r requirements.txt
+- git clone https://github.com/PurePelicanTheme/pure-single.git
+- pelican-themes -i pure-single
 script:
 - make github
