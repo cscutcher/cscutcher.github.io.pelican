@@ -36,3 +36,5 @@ DEFAULT_PAGINATION = 10
 
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['filetime_from_git']
+
+TYPOGRIFY = True
