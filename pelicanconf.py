@@ -38,6 +38,7 @@ PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['filetime_from_git']
 
 TYPOGRIFY = True
+GIT_FILETIME_FOLLOW = False
 
 # Setup archive pages
 YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
