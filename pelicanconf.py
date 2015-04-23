@@ -47,3 +47,7 @@ MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
 # More specific category detection
 USE_FOLDER_AS_CATEGORY = False
 PATH_METADATA = '(?P<category>[^/]+).*'
+
+# Don't use caches. Won't work for travis anyway
+CACHE_CONTENT = False
+LOAD_CONTENT_CACHE = False
