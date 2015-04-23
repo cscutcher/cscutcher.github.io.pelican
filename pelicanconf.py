@@ -35,10 +35,12 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['filetime_from_git']
+PLUGINS = ['filetime_from_git', 'permalinks']
 
 TYPOGRIFY = True
-GIT_FILETIME_FOLLOW = False
+GIT_SHA_METADATA = True
+GIT_FILETIME_GENERATE_PERMALINK = True
+GIT_FILETIME_FOLLOW = True
 
 # Setup archive pages
 YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
