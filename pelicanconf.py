@@ -42,3 +42,7 @@ TYPOGRIFY = True
 # Setup archive pages
 YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
+
+# More specific category detection
+USE_FOLDER_AS_CATEGORY = False
+PATH_METADATA = '(?P<category>[^/]+).*'
