@@ -99,9 +99,6 @@ dates to store the original commit sha as the `permalink_id`.
 I also modified the theme to include this link at the bottom of each page and article for easy
 access.
 
-This works pretty well apart from the fact that it cant yet cope with more than one page/article
-being added per commit. I haven't yet worked out a way around this!
-
 At the moment this new plugin (and the modifications to filetime_from_git) are only on
 [a branch of my private fork of pelican-plugins](https://github.com/cscutcher/pelican-plugins/tree/permalinks).
 
