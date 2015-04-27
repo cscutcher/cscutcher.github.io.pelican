@@ -33,8 +33,8 @@ PLUGINS = ['filetime_from_git', 'permalinks']
 
 TYPOGRIFY = True
 GIT_SHA_METADATA = True
-GIT_FILETIME_GENERATE_PERMALINK = True
-GIT_FILETIME_FOLLOW = True
+GIT_GENERATE_PERMALINK = True
+GIT_HISTORY_FOLLOWS_RENAME = True
 
 # Setup archive pages
 YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
