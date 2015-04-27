@@ -75,7 +75,7 @@ git log --folow <filename>
 to discover commits involving that filename.
 
 These changes are in [my private fork](https://github.com/cscutcher/pelican-plugins/commit/47269dd35b9236de7fc84fa99fb9e41c8d975c05)
-of pelican-plugins and will hopefully [be merged back at some point in the future](https://github.com/getpelican/pelican-plugins/pull/473).
+of pelican-plugins and have now been merged to the main pelican-plugins repo.
 
 permalinks
 ----------
