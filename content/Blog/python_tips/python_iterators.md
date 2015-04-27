@@ -1,5 +1,6 @@
 Title: Python Iterator Tips
 Tags: python, tips, programming
+permalink_id: e5c6210a28f88e9ecdb0533abf441feb01e26b7e
 
 Python's iterator protocol is a **powerful** tool in your arsenal.
 
