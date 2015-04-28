@@ -5,6 +5,9 @@ Tags: web, python, code
 [github]: https://github.com
 [pelican]: http://blog.getpelican.com/
 
+Main build status: [![Build Status](https://travis-ci.org/cscutcher/cscutcher.github.io.pelican.svg?branch=master)](https://travis-ci.org/cscutcher/cscutcher.github.io.pelican)
+Theme build status: [![Build Status](https://travis-ci.org/cscutcher/pure-single.svg?branch=v1.0)](https://travis-ci.org/cscutcher/pure-single)
+
 A long time ago I had a webpage build with Drupal. It wasn't very good and I never really used
 it properly anyway.
 After a harddrive failure I couldn't be bothered to recover the thing and left it to RIP.
