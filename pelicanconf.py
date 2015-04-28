@@ -58,7 +58,8 @@ SOCIAL = (
 )
 
 MENUITEMS = (
-    ('Blog', 'category/blog.html'),
+    ('Blog', 'category/blog'),
+    ('Snippets', 'category/snippets'),
 )
 
 COVER_IMG_URL = '/images/cover_img.png'
