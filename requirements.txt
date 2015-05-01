@@ -5,3 +5,4 @@ markdown
 gitpython==0.1.7
 ghp-import
 typogrify
+beautifulsoup4
