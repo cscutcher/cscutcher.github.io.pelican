@@ -9,11 +9,11 @@ slug: about_me
   "name" : "Chris Scutcher",
   "url" : "http://www.ninebysix.co.uk/pages/about_me.md",
   "sameAs" : [
-    'https://github.com/cscutcher',
-    'https://uk.linkedin.com/in/cscutcher',
-    'https://plus.google.com/+ChrisScutcher',
-    'https://steamcommunity.com/id/zoolie/',
-    'https://www.facebook.com/ninebysix',
+    "https://github.com/cscutcher",
+    "https://uk.linkedin.com/in/cscutcher",
+    "https://plus.google.com/+ChrisScutcher",
+    "https://steamcommunity.com/id/zoolie/",
+    "https://www.facebook.com/ninebysix",
   ]
 }
 </script> 
