@@ -68,3 +68,4 @@ TAGLINE = 'Personal Homepage of Chris Scutcher, Esq.'
 ENABLE_GOOGLE_COMMENTS = True
 
 STATIC_PATHS = ['images', 'CNAME']
+SITEURL = 'http://www.ninebysix.co.uk'
