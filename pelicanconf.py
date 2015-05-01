@@ -24,6 +24,14 @@ TYPOGRIFY = True
 USE_FOLDER_AS_CATEGORY = False
 PATH_METADATA = '(?P<category>[^/]+).*'
 
+# Don't use caches. Won't work for travis anyway
+CACHE_CONTENT = False
+LOAD_CONTENT_CACHE = False
+
+# Use relative links when building locally
+import os
+if os.environ.get('USER', None) == 'cscutcher':
+    RELATIVE_URLS = True
 
 ###############################################################################
 # archives                                                                    #
@@ -95,7 +103,3 @@ COVER_IMG_URL = '/images/cover_img.png'
 PROFILE_IMG_URL = '/images/avatar.jpeg'
 TAGLINE = 'Personal Homepage of Chris Scutcher, Esq.'
 ENABLE_GOOGLE_COMMENTS = True
-
-# Don't use caches. Won't work for travis anyway
-CACHE_CONTENT = False
-LOAD_CONTENT_CACHE = False
