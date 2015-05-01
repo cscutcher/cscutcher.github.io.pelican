@@ -4,51 +4,77 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Chris Scutcher'
 SITENAME = u'Pure Wild Animal Craziness'
-SITEURL = ''
-
-PATH = 'content'
-
+SITEURL = 'http://www.ninebysix.co.uk'
+DEFAULT_LANG = u'en'
 TIMEZONE = 'Europe/London'
 
-DEFAULT_LANG = u'en'
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = ()
+PATH = 'content'
+STATIC_PATHS = ['images', 'CNAME']
 
 
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
-
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['filetime_from_git', 'permalinks']
+# Define plugins as we go
+PLUGINS = []
 
 TYPOGRIFY = True
-GIT_SHA_METADATA = True
-GIT_GENERATE_PERMALINK = True
-GIT_HISTORY_FOLLOWS_RENAME = True
-
-# Setup archive pages
-YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
-MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
 
 # More specific category detection
 USE_FOLDER_AS_CATEGORY = False
 PATH_METADATA = '(?P<category>[^/]+).*'
 
-# Don't use caches. Won't work for travis anyway
-CACHE_CONTENT = False
-LOAD_CONTENT_CACHE = False
 
-# Social widget
+###############################################################################
+# archives                                                                    #
+###############################################################################
+# Setup archive pages
+YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
+
+###############################################################################
+# feeds                                                                       #
+###############################################################################
+FEED_DOMAIN = SITEURL
+
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/category/%s.atom.xml'
+TAG_FEED_ATOM = 'feeds/tag/%s.atom.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/category/%s.rss.xml'
+TAG_FEED_RSS = 'feeds/tag/%s.rss.xml'
+
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+###############################################################################
+# interlinks                                                                  #
+###############################################################################
+PLUGINS.append('interlinks')
+INTERLINKS = {
+    'wikipedia_en': 'http://en.wikipedia.org/wiki/',
+    'wiki': 'http://en.wikipedia.org/wiki/',
+    'github': 'https://github.com/',
+    'githubp': 'https://github.com/cscutcher',
+}
+
+###############################################################################
+# filetime_from_git                                                           #
+###############################################################################
+PLUGINS.append('filetime_from_git')
+GIT_SHA_METADATA = True
+GIT_GENERATE_PERMALINK = True
+GIT_HISTORY_FOLLOWS_RENAME = True
+
+###############################################################################
+# permalinks                                                                  #
+###############################################################################
+PLUGINS.append('permalinks')
+
+###############################################################################
+# Theme config                                                                #
+###############################################################################
 THEME = 'pure-single'
 SOCIAL = (
     ('github', 'https://github.com/cscutcher'),
@@ -62,10 +88,14 @@ MENUITEMS = (
     ('Snippets', 'category/snippets'),
 )
 
+# Blogroll
+LINKS = ()
+
 COVER_IMG_URL = '/images/cover_img.png'
 PROFILE_IMG_URL = '/images/avatar.jpeg'
 TAGLINE = 'Personal Homepage of Chris Scutcher, Esq.'
 ENABLE_GOOGLE_COMMENTS = True
 
-STATIC_PATHS = ['images', 'CNAME']
-SITEURL = 'http://www.ninebysix.co.uk'
+# Don't use caches. Won't work for travis anyway
+CACHE_CONTENT = False
+LOAD_CONTENT_CACHE = False
