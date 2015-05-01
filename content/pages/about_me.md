@@ -13,7 +13,7 @@ slug: about_me
     "https://uk.linkedin.com/in/cscutcher",
     "https://plus.google.com/+ChrisScutcher",
     "https://steamcommunity.com/id/zoolie/",
-    "https://www.facebook.com/ninebysix",
+    "https://www.facebook.com/ninebysix"
   ]
 }
 </script> 
