@@ -118,3 +118,11 @@ COVER_IMG_URL = '/images/cover_img.png'
 PROFILE_IMG_URL = '/images/avatar.jpeg'
 TAGLINE = 'Personal Homepage of Chris Scutcher, Esq.'
 ENABLE_GOOGLE_COMMENTS = True
+
+MD_EXTENSIONS = [
+    'fenced_code',
+    'codehilite(css_class=highlight)',
+    'extra',
+    'admonition',
+    'toc',
+]
