@@ -2,6 +2,13 @@ Title: Notes on Machine Learning
 Tags: machine-learning, notes
 Status: draft
 
+This page contains some notes written when taking the excellent 
+[Coursera Machine Learning Course from Stanford](https://www.coursera.org/learn/machine-learning/)
+.
+
+I've almost certainly made some mistakes but I figured I'd write them here for
+my convenience and publish them in case others find them useful.
+
 [TOC]
 
 Linear Regression
