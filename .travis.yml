@@ -7,7 +7,7 @@ before_install:
 - cp travis_ssh_key ~/.ssh/id_rsa
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-- git clone -b permalinks https://github.com/cscutcher/pelican-plugins.git
+- git clone -b master https://github.com/cscutcher/pelican-plugins.git
 - pip install -r requirements.txt
 - git clone https://github.com/cscutcher/pure-single.git
 - pelican-themes -i pure-single
