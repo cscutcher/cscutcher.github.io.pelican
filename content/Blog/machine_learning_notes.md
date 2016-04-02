@@ -119,3 +119,44 @@ Effect of $\leftthreetimes$
 If $\leftthreetimes$ is **too high**  then we will see an underfit.
 
 If $\leftthreetimes$ is **too low**  then we will see an overfit.
+
+Neural Networks
+===============
+** [See week 4](https://www.coursera.org/learn/machine-learning/home/week/4)
+and exercise 3 ** 
+
+* Well suited to non-linear problems that would require many features.
+* Feature complexity for scales at something like $O(n^2)$ or
+  $O\left(\frac{n^2}{2}\right)$
+* Popular in 1980-1990s, but also seen resurgence recently.
+* State of the art for many applications.
+
+Representation
+--------------
+Here's a couple of slides that are easier to just include rather than rewrite;
+
+![Slide introducing non-vectorized NN representation]({filename}/images/machine_learning_coursera_nn_0.png)
+
+![Slide introducing vectorized NN representation]({filename}/images/machine_learning_coursera_nn_1.png)
+
+If network has $s_j$ units in layer $j$ and $s_{(j+1)}$ in layer $j+1$
+then $\theta(j)$ will be dimensions;
+$$
+s_{(j+1)} \times (s_j + 1)
+$$
+
+Lingo
+-----
+* $x_0$ = bias unit
+* Sigmoid/Logistic **Activation Function**
+* $\theta$ == weights == parameters
+* Layer 1 = Input Layer. Layer [-1] = Output Layer. Layer [others] = Hidden layer.
+* $a_i^{(j)}$ is "activating of unit $i$ in layer $j$.
+* $\theta{(j)}$ is matrix of weights controlling function mapping from layer
+  $j$ to layer $j+1$.
+
+
+On actual (biological) neurons
+------------------------------
+* Dendrite is 'input'
+* Axon is 'output'
