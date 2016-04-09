@@ -155,6 +155,95 @@ Lingo
 * $\theta{(j)}$ is matrix of weights controlling function mapping from layer
   $j$ to layer $j+1$.
 
+Cost Function
+-------------
+
+$$
+J(\theta)= \frac{1}{m}\sum^m_{i=1}\sum^K_{k=1}\left[ - y_k^{(i)}\log \left( \left( h_\theta ( x^{(i)} ) \right)k \right) - \left( 1 - y_k^{(i)} \right) \log \left( 1 - \left( h_\theta(x^{(i)}) \right)  k\right) \right] + \\
+\frac{\leftthreetimes}{2m}\left[ \sum^{25}_{j=1}\sum^{400}_{k=1} \left( \theta_{j,k}^{(1)} \right)^2 + \sum^{10}_{j=1}\sum^{25}_{k=1} \left( \theta_{j,k}^{(2)} \right)^2 \right]
+$$
+
+** Note that $J(\theta)$ is non-convex and may converge on lcal minima **
+
+
+Grad Function/Back Prop
+-----------------------
+
+$$
+\text{sigmoid}(z)=g(z)=\frac{1}{1+e^{-z}}\\
+g'(z)=\frac{d}{dz}g(z)=g(z)(1-g(z))
+$$
+
+1. Forward propagate to get activation values for all units.
+2. Calculate $\delta$ for output unit: 
+$$
+\delta_k^{\text{end}} = (a_k^{(\text{end})} - y_k)
+$$
+3. For all other layers;
+$$
+\delta^{(l)} = (\theta^{(l)})^T\delta^{(l+1)}(a^{(l)})^T
+$$
+4. Accumulate the gradient with following formula.
+$$
+\triangle^{(l)} = \triangle^{(l)} + \delta^{(l+1)}(a^{(l)})^T
+$$
+Remove $\delta_0^{l}$.
+5. Obtain the gradient for $j=0$:
+$$
+\frac{\partial}{\partial\theta_{ij}^{(l)}}J(\theta)=D_{ij}^{(l)}=\frac{1}{m}\triangle_{ij}^{(l)}
+$$
+for $j>=1$
+$$
+\frac{\partial}{\partial\theta_{ij}^{(l)}}J(\theta)=D_{ij}^{(l)}=\frac{1}{m}\triangle_{ij}^{(l)} + \frac{\leftthreetimes}{m}\theta_{ij}^{(l)}
+$$
+
+Initialising $\theta$
+---------------------
+** Don't initialise to all the same value as nn will get *stuck* **
+
+Initialise each to random value between $\epsilon$ and $-\epsilon$.
+
+Architecture
+------------
+When choosing architecture a reasonable initial step is to choose 3 layer design
+
+* Input layer
+* Hidden layer
+* Output layer
+
+If using more layers (say $n$) start with same units per layer.
+More units per layer is usually *better*.
+
+Gradient Checking
+-----------------
+Gradient checking can be used to check implementation.
+It should not be used exhaustively as it's too expensive to calculate. 
+
+$$
+f_i(\theta) \approx \frac{J(\theta^{i+\epsilon}) - J(\theta^{i-\epsilon})}{2\epsilon}
+$$
+
+```octave
+for i = 1:n
+    thetaPlus = theta;
+    thetaPlus(i) = thetaPlus(i) + EPSILON;
+    thetaMinus = theta;
+    thetaMinus(i) = thetaMinus(i) - EPSILON;
+    gradApprox(i) = (J(thetaPlus) - J(thetaMinus)) / (2*EPSILON)
+end;
+```
+
+$\text{gradApprox} \approx \text{DVec}$
+
+
+Excercise 4 Results
+-------------------
+
+![Excercise 4 Output]({filename}/images/machine_learning_ex4_output.png)
+
+* 50 iterations. 96.14% accuracy.
+* 250 iterations. 99.36% accuracy.
+* 500 iterations. 99.4% accuracy.
 
 On actual (biological) neurons
 ------------------------------
