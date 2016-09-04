@@ -31,11 +31,11 @@ At home (or wherever I choose to work on a given day) I can be in my ideal
 workspace; I have everything setup in the way that's most efficient for me.
 
 Having complete control over my environment extends to distractions.
-We all know how painful it can be to have one's concentration broken when working
-on a particularly difficult bug.
+We all know how painful it can be to have one's concentration broken when
+working on a particularly difficult bug.
 When remote working that's not an issue; if I want to blast out some Rammstein
-while work then I can, if I want some silence to concentrate without distractions
-then I can do that too.
+while work then I can, if I want some silence to concentrate without
+distractions then I can do that too.
 
 I can use long periods of dead time, e.g. long compiles or test runs, to get
 some chores done, or indulge in some woodwork (my current hobby of the week).
@@ -61,8 +61,8 @@ The strain on **transport networks** would be seriously reduced.
 Those remote working would no longer have to waste hours of their life packed
 onto overcrowded trains and roads.
 Those who still have to go to their place of work for practical reasons would
-have a much better time as the pressure on transport would be reduced, especially
-around peak times.
+have a much better time as the pressure on transport would be reduced,
+especially around peak times.
 
 This obviously also has a massive benefit for the **environment**.
 Apart from reducing the need to commute, normalising distributed remote working
@@ -81,8 +81,8 @@ Slashing our dependence on traditional office spaces will also help tackle the
 
 Not having to live close to where you work will also encourage us to spread out
 a little more, so we don't all have to pack into London, 
-**revitalising the north** (and other areas) of the country and easing stratospheric housing
-prices and strain on services in London and the South. 
+**revitalising the north** (and other areas) of the country and easing
+stratospheric housing prices and strain on services in London and the South. 
 
 Internationally it could help benefit developing countries by tackling
 **[brain drain](wiki>Human_capital_flight)** by allowing skilled individuals
@@ -107,7 +107,8 @@ employees and values all the things I mention above.
 
 Secondly, you'll find it easier to hire and retain the best employees;
 the engineer with the ideal experience for your project lives in Germany - no 
-problem! Your QA lead wants to move back to Portugal to be with her family - relax!
+problem!
+Your QA lead wants to move back to Portugal to be with her family - relax!
 That's aside from the fact that you'll be a lot more attractive as a place to
 work.
 
@@ -139,7 +140,8 @@ There are plenty of ways to slack off in an office undetected.
 
 The inability to accurately gauge an employees' performance suggests, more than
 anything else, poor management.
-However, even if this isn't the case, how exactly is seeing bums on seats helping?
+However, even if this isn't the case, how exactly is seeing bums on seats
+helping?
 
 **I'd say you'd get more productive, efficient and enthusiastic employees by
 creating a positive, trusting environment that gives feedback based on actual
@@ -152,8 +154,8 @@ Traditional, old fashioned, face-to-face communication still has its place, but
 almost all of those benefits can be kept in a remote working environment.
 
 **I'm lucky enough to have been working primarily from home now for ~5 years and
-I would say that, when it comes to communication and collaboration, remote working
-is almost always as good, if not better, than being co-located.**
+I would say that, when it comes to communication and collaboration, remote
+working is almost always as good, if not better, than being co-located.**
 
 Telepresence technology is fantastic now. I have an
 [EX60](https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-ex60/model.html)
@@ -166,8 +168,8 @@ continue the conversation naturally.
 
 People often think those useful "over-the-shoulder" conversations are
 compromised with remote working. I don't believe this is the case.
-Firstly, much of that can be preserved with simple tools like Slack, or Spark, or
-even IRC.
+Firstly, much of that can be preserved with simple tools like Slack, or Spark,
+or even IRC.
 Secondly, my colleagues and I often have calls or conferences open for hours at
 a time, not for any particular conversation, but just for the social aspect or
 to have the company, and it works great.
@@ -180,10 +182,11 @@ on a video call, using tmux to share the terminal, is far superior.
 With more innovations on the way, in particular around VR and augmented reality,
 I believe we'll see more and more ways that technology will allow us to
 communicate and collaborate better than we ever could face to face.
-Indeed, the best innovations will come when we fully embrace technology's ability
-to allow communication in a way that's impossible with a physical analogue.
-This is something I've been experimenting with, developing VR-based virtual meeting
-spaces with the HTC Vive. 
+Indeed, the best innovations will come when we fully embrace technology's
+ability to allow communication in a way that's impossible with a physical
+analogue.
+This is something I've been experimenting with, developing VR-based virtual
+meeting spaces with the HTC Vive. 
 
 
 "But I like going into the office"
@@ -197,7 +200,7 @@ But embracing remote working doesn't have to mean you can't have that stuff if
 you want it. Actually, it can make it even better!
 
 If you don't want to work at home, remote working still opens up so many
-options. Maybe you'd like to work from a cafe or an art gallery.
+options. Maybe you'd like to work from a café or an art gallery.
 Or if you'd like a more traditional space, maybe find a shared office space
 close to your home - or even better a [hackerspaces](wiki>Hackerspace). 
 
@@ -208,9 +211,9 @@ with remote working makes it much easier to manage one's social life
 outside of work (*GASP*). It's easier to grab lunch with an old friend, or -
 now you don't have to commute - join a club, take a class, go to the gym etc.
 
-I would also add, deespite having workeed from home almost exclusively, I have a good
-social relationship with the colleagues in my team and we often meetup virtually in other
-ways (gaming) or going to the pub for realsies. 
+I would also add, despite having worked from home almost exclusively, I have a
+good social relationship with the colleagues in my team and we often
+meet up virtually in other ways (gaming) or going to the pub for realsies. 
 
 **Your working environment can be more social, more interesting, 
 and more efficient. The choice is yours.**
