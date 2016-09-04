@@ -125,7 +125,7 @@ MENUITEMS = (
 LINKS = ()
 
 COVER_IMG_URL = '/images/cover_img.png'
-PROFILE_IMG_URL = '/images/avatar.jpeg'
+PROFILE_IMG_URL = 'https://www.gravatar.com/avatar/7dcb6b43b700a2870faa3aa1941d6da4?s=200&r=pg&d=mm'
 TAGLINE = 'Personal Homepage of Chris Scutcher, Esq.'
 ENABLE_GOOGLE_COMMENTS = True
 
