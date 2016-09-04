@@ -116,11 +116,12 @@ SOCIAL = (
 )
 
 MENUITEMS = (
-    ('Blog', 'category/blog'),
-    ('Snippets', 'category/snippets'),
-    ('About', 'pages/about_me'),
+    ('Blog', '/category/blog'),
+    ('Snippets', '/category/snippets'),
+    ('About', '/pages/about_me'),
     ('CV', '/pages/cv'),
 )
+DISPLAY_PAGES_ON_MENU = False
 
 # Blogroll
 LINKS = ()
