@@ -1,6 +1,5 @@
 tags: telepresence, remote, society
 title: Why I'm a remote working fanatic
-status: draft
 
 I'm often approached by recruiters, and in general I'm always happy to listen to
 potential opportunities and have a chat.
