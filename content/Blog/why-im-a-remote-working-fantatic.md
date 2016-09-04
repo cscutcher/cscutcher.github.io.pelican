@@ -203,15 +203,18 @@ you want it. Actually, it can make it even better!
 
 If you don't want to work at home, remote working still opens up so many
 options. Maybe you'd like to work from a café or an art gallery.
-Or if you'd like a more traditional space, maybe find a shared office space
-close to your home - or even better a [hackerspaces](wiki>Hackerspace). 
+How about a [hackerspaces](wiki>Hackerspace)?
 
-These suggestions obviously also address the social aspect, with hackerspaces
-being especially useful as they also allow people excellent opportunities to
-network and learn; but outside of that the additional flexibility that comes
-with remote working makes it much easier to manage one's social life
-outside of work (*GASP*). It's easier to grab lunch with an old friend, or -
-now you don't have to commute - join a club, take a class, go to the gym etc.
+Or if you'd like a more traditional space, maybe find a shared office space
+(sometimes called a co-office) close to your home.
+
+These suggestions obviously also address the social aspect, with shared offices
+and hackerspaces being especially useful as they also allow people excellent
+opportunities to network and learn; but outside of that the additional
+flexibility that comes with remote working makes it much easier to manage one's
+social life outside of work (*GASP*). It's easier to grab lunch with an old
+friend, or - now you don't have to commute - join a club, take a class, go to
+the gym etc.
 
 I would also add, despite having worked from home almost exclusively, I have a
 good social relationship with the colleagues in my team and we often
