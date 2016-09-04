@@ -119,6 +119,7 @@ MENUITEMS = (
     ('Blog', 'category/blog'),
     ('Snippets', 'category/snippets'),
     ('About', 'pages/about_me'),
+    ('CV', '/pages/cv'),
 )
 
 # Blogroll
