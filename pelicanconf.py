@@ -89,10 +89,20 @@ GIT_HISTORY_FOLLOWS_RENAME = True
 PLUGINS.append('permalinks')
 
 ###############################################################################
-# render_math                                                                  #
+# render_math                                                                 #
 ###############################################################################
 PLUGINS.append('render_math')
 
+###############################################################################
+# liquid_tags                                                                 #
+###############################################################################
+PLUGINS.extend([
+    'liquid_tags.img',
+    'liquid_tags.video',
+    'liquid_tags.youtube',
+    'liquid_tags.vimeo',
+    'liquid_tags.include_code',
+])
 
 ###############################################################################
 # Theme config                                                                #

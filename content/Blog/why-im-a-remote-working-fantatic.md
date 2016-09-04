@@ -49,6 +49,7 @@ then reinvest in my work and in my personal life.
 **In summary remote working allows me to work happier, harder, more efficiently
 with less personal and financial cost.**
 
+{% img fig-right {filename}/images/ex-60.jpg 200 200 At home I use the wonderful EX60 %}
 
 Remote working can change the world
 ===================================
@@ -188,6 +189,7 @@ analogue.
 This is something I've been experimenting with, developing VR-based virtual
 meeting spaces with the HTC Vive. 
 
+![With VR the possibilities for virtual collaboration are endless)]({filename}/images/fantastic-contraption.gif)
 
 "But I like going into the office"
 --------------------------------
