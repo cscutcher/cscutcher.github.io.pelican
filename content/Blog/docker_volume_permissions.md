@@ -198,3 +198,4 @@ If I do I'll try and follow up with how well it went.
 * [man user_namespaces](http://man7.org/linux/man-pages/man7/user_namespaces.7.html)
 * [Docker help on --userns-remap](https://docs.docker.com/engine/reference/commandline/dockerd/#/starting-the-daemon-with-user-namespaces-enabled)
 * [Using User Namespaces on Docker](https://coderwall.com/p/s_ydlq/using-user-namespaces-on-docker)
+* [Tutorial (Docker for your users)](https://blog.yadutaf.fr/2016/04/14/docker-for-your-users-introducing-user-namespace/)
