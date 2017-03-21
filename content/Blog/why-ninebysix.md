@@ -2,6 +2,10 @@ tags: meta, web, personal
 slug: ninebysix
 title: Why did I pick the domain name ninebysix.co.uk?
 
+EDIT: I've since changed domainname to avoid more of the same problems below.
+Hopefully using my actual name which make this all slightly less likely in the
+future!
+
 tl;dr; It's a reference to
 [The Hitchhiker's Guide to the Galaxy](wiki>The_Hitchhiker%27s_Guide_to_the_Galaxy)
 
