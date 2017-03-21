@@ -7,7 +7,7 @@ slug: about_me
 { "@context" : "http://schema.org",
   "@type" : "Person",
   "name" : "Chris Scutcher",
-  "url" : "http://www.ninebysix.co.uk/pages/about_me.md",
+  "url" : "http://chris.scutcher.co.uk/pages/about_me.md",
   "sameAs" : [
     "https://github.com/cscutcher",
     "https://uk.linkedin.com/in/cscutcher",
