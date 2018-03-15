@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Chris Scutcher'
 SITENAME = u'Pure Wild Animal Craziness'
-SITEURL = 'http://chris.scutcher.co.uk'
+SITEURL = 'http://chris.scutcher.uk'
 DEFAULT_LANG = u'en'
 TIMEZONE = 'Europe/London'
 
